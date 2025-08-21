@@ -25,7 +25,7 @@ Download from: [Appium Inspector](https://github.com/appium/appium-inspector/rel
 ---
 
 ### 4. Install Appium Server (Desktop GUI)
-Download from: [Appium Server](https://appium.io/)  
+Download from: [Appium Server](https://github.com/appium/appium-desktop/releases/download/v1.22.3-4/Appium-Server-GUI-windows-1.22.3-4.exe) 
 
 This will be used to connect **Eclipse/Java tests** with the emulator.
 
