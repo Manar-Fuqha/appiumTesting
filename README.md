@@ -29,6 +29,7 @@ Download from: [Appium Server](https://github.com/appium/appium-desktop/releases
 
 This will be used to connect **Eclipse/Java tests** with the emulator.
 
+---
 
 ### 5. Configure Environment Variables
 
