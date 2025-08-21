@@ -59,6 +59,7 @@ C:\Program Files\nodejs
 
 Create a class called **`MathematicalCalculations`** that contains the following test cases:
 
+- **Addition** → Verify addition of two numbers 
 - **Subtraction** → Verify subtraction of two numbers  
 - **Multiplication** → Verify multiplication of two numbers  
 - **Square Root** → Verify square root of any number  
