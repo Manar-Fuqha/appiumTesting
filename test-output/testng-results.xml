@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="٢٠٢٥-٠٨-٢١T٠٢:٢٤:٢٠ EET" name="Default suite" finished-at="٢٠٢٥-٠٨-٢١T٠٢:٢٥:٢١ EET" duration-ms="61485">
+    <groups>
+    </groups>
+    <test started-at="٢٠٢٥-٠٨-٢١T٠٢:٢٤:٢٠ EET" name="Default test" finished-at="٢٠٢٥-٠٨-٢١T٠٢:٢٥:٢١ EET" duration-ms="61485">
+      <class name="appium_testing.mathematicalCalculations">
+        <test-method is-config="true" signature="setup()[pri:0, instance:appium_testing.mathematicalCalculations@7d8704ef]" started-at="٢٠٢٥-٠٨-٢١T٠٢:٢٤:٢٠ EET" name="setup" finished-at="٢٠٢٥-٠٨-٢١T٠٢:٢٤:٤٧ EET" duration-ms="27222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addition()[pri:0, instance:appium_testing.mathematicalCalculations@7d8704ef]" started-at="٢٠٢٥-٠٨-٢١T٠٢:٢٤:٤٧ EET" name="addition" description="Addition of two numbers Functionality" finished-at="٢٠٢٥-٠٨-٢١T٠٢:٢٤:٥٣ EET" duration-ms="6069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addition -->
+        <test-method signature="factorialOfAnyNumber()[pri:0, instance:appium_testing.mathematicalCalculations@7d8704ef]" started-at="٢٠٢٥-٠٨-٢١T٠٢:٢٤:٥٣ EET" name="factorialOfAnyNumber" finished-at="٢٠٢٥-٠٨-٢١T٠٢:٢٤:٥٩ EET" duration-ms="5619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- factorialOfAnyNumber -->
+        <test-method signature="multiplication()[pri:0, instance:appium_testing.mathematicalCalculations@7d8704ef]" started-at="٢٠٢٥-٠٨-٢١T٠٢:٢٤:٥٩ EET" name="multiplication" description="multiplication of two numbers" finished-at="٢٠٢٥-٠٨-٢١T٠٢:٢٥:٠٤ EET" duration-ms="5678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplication -->
+        <test-method signature="powerOfTwoNumbers()[pri:0, instance:appium_testing.mathematicalCalculations@7d8704ef]" started-at="٢٠٢٥-٠٨-٢١T٠٢:٢٥:٠٤ EET" name="powerOfTwoNumbers" finished-at="٢٠٢٥-٠٨-٢١T٠٢:٢٥:١٠ EET" duration-ms="5878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powerOfTwoNumbers -->
+        <test-method signature="sqrt()[pri:0, instance:appium_testing.mathematicalCalculations@7d8704ef]" started-at="٢٠٢٥-٠٨-٢١T٠٢:٢٥:١٠ EET" name="sqrt" finished-at="٢٠٢٥-٠٨-٢١T٠٢:٢٥:١٥ EET" duration-ms="4679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sqrt -->
+        <test-method signature="subtraction()[pri:0, instance:appium_testing.mathematicalCalculations@7d8704ef]" started-at="٢٠٢٥-٠٨-٢١T٠٢:٢٥:١٥ EET" name="subtraction" description="Subtraction of two numbers Functionality" finished-at="٢٠٢٥-٠٨-٢١T٠٢:٢٥:٢٠ EET" duration-ms="5509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtraction -->
+        <test-method is-config="true" signature="myAfterTest()[pri:0, instance:appium_testing.mathematicalCalculations@7d8704ef]" started-at="٢٠٢٥-٠٨-٢١T٠٢:٢٥:٢٠ EET" name="myAfterTest" finished-at="٢٠٢٥-٠٨-٢١T٠٢:٢٥:٢١ EET" duration-ms="641" status="FAIL">
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
+            <message>
+              <![CDATA[The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [732ac743-450f-497f-a9d5-0093eb788eaa, close {}]
+Capabilities {appium:app: C:\Users\pc\eclipse-workspa..., appium:appPackage: com.google.android.calculator, appium:databaseEnabled: false, appium:desired: {app: C:\Users\pc\eclipse-workspa..., deviceName: MyPhone, platformName: ANDROID}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2220, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 16, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 2154, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 732ac743-450f-497f-a9d5-0093eb788eaa]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [732ac743-450f-497f-a9d5-0093eb788eaa, close {}]
+Capabilities {appium:app: C:\Users\pc\eclipse-workspa..., appium:appPackage: com.google.android.calculator, appium:databaseEnabled: false, appium:desired: {app: C:\Users\pc\eclipse-workspa..., deviceName: MyPhone, platformName: ANDROID}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2220, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 16, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 2154, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 732ac743-450f-497f-a9d5-0093eb788eaa
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:272)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:409)
+at appium_testing.Actions.closeApp(Actions.java:117)
+at appium_testing.mathematicalCalculations.myAfterTest(mathematicalCalculations.java:65)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.afterRun(TestRunner.java:845)
+at org.testng.TestRunner.run(TestRunner.java:618)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAfterTest -->
+      </class> <!-- appium_testing.mathematicalCalculations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
