@@ -20,7 +20,7 @@ We will use it to create **emulators (Virtual Devices)**.
 ---
 
 ### 3. Install Appium Inspector
-Download from: [Appium Inspector](https://github.com/appium/appium-inspector)  
+Download from: [Appium Inspector](https://github.com/appium/appium-inspector/releases/download/v2023.3.1/Appium-Inspector-windows-2023.3.1.exe)  
 
 ---
 
